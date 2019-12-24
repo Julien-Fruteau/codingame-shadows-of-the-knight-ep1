@@ -1,5 +1,9 @@
 # codingame-shadows-of-the-knight-ep1
 
+https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1
+
+#### # binary search
+
 ## Objectif
 
 Batman va rechercher les otages d'un batiment donné en sautant de fenêtre en fenêtre à l'aide de son grappin. Le but de Batman est d'arriver sur la fenêtre de la pièce où les otages se trouvent afin de désamorcer les bombes du Joker. Malheureusement il n'a qu'un nombre de sauts limités avant que les bombes n'explosent...
@@ -38,10 +42,10 @@ Ligne 2 : 1 entier N, qui représente le nombre de sauts que Batman peut faire a
 Ligne 3 : 2 entiers X0 Y0, qui représentent la position de départ de Batman.
 
 ### Entrée pour un tour de jeu
+La direction vers laquelle se trouve la bombe.
 
-- La direction vers laquelle se trouve la bombe.
-- Sortie pour un tour de jeu
-- Une ligne unique avec 2 entiers X Y séparés par un espace. (X, Y) représente la position de la prochaine fenêtre sur laquelle Batman devrait sauter. X représente l'index sur l'axe horizontal, Y représente l'index sur l'axe vertical. (0,0) se trouve dans le coin haut gauche du bâtiment.
+### Sortie pour un tour de jeu
+Une ligne unique avec 2 entiers X Y séparés par un espace. (X, Y) représente la position de la prochaine fenêtre sur laquelle Batman devrait sauter. X représente l'index sur l'axe horizontal, Y représente l'index sur l'axe vertical. (0,0) se trouve dans le coin haut gauche du bâtiment.
 
 ### Contraintes
 
